@@ -18,7 +18,7 @@
   }
 
   &__items {
-    width: 964px;
+    max-width: 964px;
 
 
   }
@@ -38,7 +38,7 @@
   }
 
   &__descr {
-    width: 277px;
+    max-width: 277px;
     color: #0D0D0D;
     text-align: center;
     font-size: 14px;
