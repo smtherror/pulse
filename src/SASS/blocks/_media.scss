@@ -2,6 +2,7 @@
   .promo {
     min-height: 400px;
     padding: 36px 0;
+    background: url('../img/bg/mobile_bg.jpg') center center / cover no-repeat;
 
     &__wrapper {
       display: flex;
@@ -51,6 +52,12 @@
     &_main {
       width: 260px;
     }
+
+    &_submit {
+      width: 235px;
+      height: 45px;
+      font-size: 15px;
+    }
   }
 
   .advants {
@@ -81,4 +88,34 @@
 
     }
   }
+
+  .consultation {
+    min-height: 400px;
+    padding: 33px 13px 33px 13px;
+    background: url('../img/bg/bg_mobile_2.jpg') center center / cover no-repeat;
+
+    &__descr {
+      font-size: 15px;
+      text-align: center;
+    }
+  }
+
+  .title {
+    &_left {
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+
+  .feed-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    input {
+      height: 40px;
+    }
+  }
+
 }
