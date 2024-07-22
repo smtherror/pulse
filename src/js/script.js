@@ -1,6 +1,7 @@
 $(document).ready(function () {
   $('.carousel__inner').slick({
     speed: 1200,
+    // dots: true,
     // adaptiveHeight: true,
     prevArrow: '<button type="button" class="slick-prev"> <img src="../img/arrow_left.svg"> </button>',
     nextArrow: '<button type="button" class="slick-next"><img src="../img/arrow_right.svg"></button>',
@@ -27,6 +28,8 @@ $(document).ready(function () {
         breakpoint: 480,
         settings: {
           arrows: false,
+          dots: true,
+          centerMode: true,
           centerMode: true,
           centerPadding: '40px',
           slidesToShow: 1,
