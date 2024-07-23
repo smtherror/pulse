@@ -18,6 +18,8 @@ $(document).ready(function () {
       {
         breakpoint: 600,
         settings: {
+          dots: true,
+          arrows: false,
           slidesToShow: 2,
           slidesToScroll: 2,
           centerMode: true,
