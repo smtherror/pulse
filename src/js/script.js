@@ -9,14 +9,14 @@ $(document).ready(function () {
       {
         breakpoint: 992,
         settings: {
-          dots: false,
+          dots: true,
           arrows: false,
           centerMode: true,
           variableWidth: true
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 767,
         settings: {
           dots: true,
           arrows: false,
@@ -27,7 +27,7 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 575,
         settings: {
           arrows: false,
           dots: true,
