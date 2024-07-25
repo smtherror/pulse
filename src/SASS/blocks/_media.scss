@@ -2,10 +2,10 @@
   .carousel {
     &__inner {
       max-width: 100%;
+    }
 
-      img {
-        max-width: 55%;
-      }
+    &__img {
+      max-width: 55%;
     }
 
     .slick-prev,
@@ -341,10 +341,10 @@
   .carousel {
     &__inner {
       max-width: 100%;
+    }
 
-      img {
-        max-width: 44%;
-      }
+    &__img {
+      max-width: 44%;
     }
 
     .slick-dots {
@@ -669,11 +669,10 @@
   .carousel {
     &__inner {
       max-width: 100%;
+    }
 
-      img {
-        max-width: 44%;
-      }
-
+    &__img {
+      max-width: 44%;
     }
 
     .slick-list {
@@ -913,11 +912,10 @@
   .carousel {
     &__inner {
       max-width: 100%;
+    }
 
-      img {
-        max-width: 67%;
-      }
-
+    &__img {
+      max-width: 67%;
     }
 
     .slick-list {
