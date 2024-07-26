@@ -1111,5 +1111,14 @@
     }
   }
 
+  .modal {
+    width: 277px;
+    min-height: 349px;
+
+    &__close {
+      right: -22px;
+      font-size: 29px;
+    }
+  }
 
 }
